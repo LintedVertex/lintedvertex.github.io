@@ -4,15 +4,28 @@ title = 'LintedVertex'
 theme = 'PaperMod'
 
 [params]
-  description = "My multi-topic engineering blog and notes."
+  description = "Semiconductors, AI, and Topological Quantum Computing"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
 
 [menu]
   [[menu.main]]
-    identifier = "engineering"
-    name = "Engineering"
-    url = "/engineering/"
+    identifier = "semiconductors"
+    name = "Semiconductors"
+    url = "/semiconductors/"
     weight = 10
-    
+
+  [[menu.main]]
+    identifier = "ai"
+    name = "AI"
+    url = "/ai/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tqc"
+    name = "TQC"
+    url = "/tqc/"
+    weight = 30

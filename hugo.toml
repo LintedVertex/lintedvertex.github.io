@@ -1,0 +1,18 @@
+baseURL = 'https://lintedvertex.github.io/'
+languageCode = 'en-us'
+title = 'LintedVertex'
+theme = 'PaperMod'
+
+[params]
+  description = "My multi-topic engineering blog and notes."
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "engineering"
+    name = "Engineering"
+    url = "/engineering/"
+    weight = 10
+    
